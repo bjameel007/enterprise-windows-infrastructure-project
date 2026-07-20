@@ -60,6 +60,66 @@ jblab.local
 
 Each competition group contains country-specific Organizational Units representing participating national teams, allowing delegated administration and structured policy application.
 
+## Enterprise OU Design
+
+The Active Directory environment is organized using a scalable Organizational Unit (OU) hierarchy that separates administrative objects from business units.
+
+<ASCII Tree>
+
+Each competition group contains country-specific Organizational Units representing participating national teams, allowing delegated administration and structured policy application.
+
+---
+
+### Active Directory Implementation
+
+#### Domain Overview
+
+![Domain Overview](images/active-directory/01-domain-overview.png)
+
+**Description**
+
+The root Active Directory domain (`jblab.local`) serves as the foundation of the enterprise environment.
+
+---
+
+#### JBLab Organizational Unit
+
+![JBLab OU Structure](images/active-directory/02-jblab-ou-structure.png)
+
+**Description**
+
+The `JBLab` OU contains the administrative structure of the environment, including dedicated OUs for users, computers, groups, service accounts, and business units.
+
+---
+
+#### World Cup Business Unit
+
+![Group A Structure](images/active-directory/03-group-a-structure.png)
+
+**Description**
+
+The `World Cup 2026` OU models a business unit, organized into Groups A–L, each containing country-specific Organizational Units.
+
+---
+
+#### Coaches Organizational Unit
+
+![Coaches OU](images/active-directory/04-coaches-ou.png)
+
+**Description**
+
+Coach accounts are separated into their own Organizational Units to demonstrate structured identity management and delegated administration.
+
+---
+
+#### Security Groups
+
+![Security Groups](images/active-directory/05-security-groups.png)
+
+**Description**
+
+Role-Based Access Control (RBAC) is implemented using Active Directory Security Groups to simplify permission management and support least-privilege access.
+
 ---
 
 ## Project Objectives
