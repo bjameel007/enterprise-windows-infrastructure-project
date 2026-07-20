@@ -8,8 +8,7 @@ Enterprise Windows infrastructure project built using **Windows Server 2022**, *
 
 ## Enterprise Architecture
 
-> *Architecture diagram will be displayed here.*
-
+![Enterprise Windows Infrastructure Architecture](architecture/AD%20Diagram.png)
 ---
 
 ## Project Overview
