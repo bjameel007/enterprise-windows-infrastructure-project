@@ -75,7 +75,7 @@ Implementation of SMB file shares including:
 - Share validation
 - Client accessibility
 
-📁 `images/file-services`
+📁 `images/files-services`
 
 ---
 
@@ -104,7 +104,7 @@ Enterprise policy deployment including:
 - Item-Level Targeting
 - Group Policy Preferences
 
-📁 `images/Group-Policy`
+📁 `images/Group Policy`
 
 ---
 
@@ -118,7 +118,7 @@ Validation from the Windows client perspective confirming:
 - SMB access
 - User-targeted configuration
 
-📁 `images/enterprise-validation`
+📁 `images/Enterprise Validation`
 
 ---
 
