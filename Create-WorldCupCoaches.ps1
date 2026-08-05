@@ -2,7 +2,7 @@ Import-Module ActiveDirectory
 
 $CsvPath = "C:\Scripts\WorldCup\WorldCupCoaches.csv"
 $BaseOU = "OU=World Cup 2026,OU=JBLab,DC=jblab,DC=local"
-$DefaultPassword = ConvertTo-SecureString "Welcome2026!" -AsPlainText -Force
+$DefaultPassword = Read-Host "Enter the temporary account password" -AsSecureString
 
 Import-Csv $CsvPath | ForEach-Object {
 
